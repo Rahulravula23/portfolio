@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Streaming App</title>
+    <link rel="stylesheet" href="Music.css">
+</head>
+
+<body>
+    
+    <header>
+        <h1>Music Streaming App</h1>
+        <input type="text" placeholder="Search for songs">
+        <button>Search</button>
+    </header>
+    <main>
+        <div class="sidebar">
+            <h2>Playlists</h2>
+            <ul>
+                <li>Playlist 1</li>
+                <li>Playlist 2</li>
+                <li>Playlist 3</li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2>Featured Songs</h2>
+            <div class="song">
+                <img class="music" src="./Music1_image.jpg" alt="Album Cover">
+                <h3>Song Title 1</h3>
+                <p>Artist Name</p>
+                <audio controls>
+                    <source src="song1.mp3" type="audio/mpeg">
+
+                </audio>
+            </div>
+            <div class="song">
+                <img class="music" src="./Music2_image.jpg" alt="Album Cover">
+                <h3>Song Title 2</h3>
+                <p>Artist Name</p>
+                <audio controls>
+                    <source src="song2.mp3" type="audio/mpeg">
+
+                </audio>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Music Streaming App</p>
+    </footer>
+    <script>
+        // JavaScript
+
+        // Function to handle search functionality
+        function searchSongs() {
+            // Retrieve the search query
+            var searchQuery = document.querySelector('input[type="text"]').value;
+
+            // You can implement search logic here, such as filtering songs based on the search query
+            console.log("Search query:", searchQuery);
+        }
+
+        // Add event listener to the search button
+        document.querySelector('button').addEventListener('click', searchSongs);
+
+        // You can add more JavaScript functionality as needed, such as handling audio playback, loading playlists, etc.
+
+    </script>
+</body>
+
+</html>

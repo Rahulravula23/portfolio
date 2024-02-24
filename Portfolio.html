@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/e5b949233f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Portfolio.css">
+</head>
+
+<body>
+
+    <div id="header">
+
+        <div class="container">
+            <nav>
+                <img src="image2.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Rahul</span><br>Ravula from India</h1>
+            </div>
+        </div>
+    </div>
+    <!------------------------About----------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image3.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">
+                        About Me
+                    </h1>
+                    <p>Passionate developer with a flair for creativity, crafting innovative solutions through HTML,
+                        CSS, and JavaScript.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>JAVA</span><br>Creating Web App</li>
+                            <li><span>HTML</span><br>Desinging Web Page</li>
+                            <li><span>CSS</span><br>Styling Web Page</li>
+                            <li><span>JAVA SCRIPT</span><br>Dynamic Web Page</li>
+                            <li><span>SQL</span><br>Desinging Web App</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>M.C.A</span><br>Master's Of Computer Application - 2022</li>
+                            <li><span>B.C.A</span><br>Bachelor's Of Computer Application - 2020</li>
+                            <li><span>H.S.C</span><br>Higher Secondary School - 2017</li>
+                            <li><span>S.S.C</span><br>Secondary School - 2015</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-------------------------SERVICES------------------------------------>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title change"> My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>creating the visual elements and layout of a website, while coding involves translating these
+                        designs into a functional website using programming languages
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Transforming vision into reality is at the core of what we do. As UI/UX design specialists, we
+                        excel in crafting immersive digital expe riences that captivate users and drive engagement.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>At the heart of our services lies the fusion of creativity and functionality. As experts in app
+                        design, we specialize in crafting seamless user experiences that resonate with your audience.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-----------------------------PORTFOLIO---------------------------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title  change">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img class="music" src="image4.jpeg">
+                    <div class="layer">
+                        <h3 class="color">Secure File Storage By Cloud</h3>
+                        <p>Data security is crucial for safeguarding the privacy, availability, and integrity of data as
+                            well as for assuring compliance with the rules and laws that control how sensitive data is
+                            handled. A potent approach for protecting digital data, including files, is hybrid
+                            cryptography.
+                        </p>
+                        <a href="https://docs.google.com/document/d/1az-18UBL29KtEKIgKmjga0klZGtfPK-P/edit?usp=drive_link&ouid=116005967715622400530&rtpof=true&sd=true"
+                            target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img class="music" src="image5.jpg">
+                    <div class="layer">
+                        <h3 class="color">E-Shooping</h3>
+                        <p>Online shopping is a form of electronic commerce which allows consumers to directly buy goods
+                            or services from a seller over the Internet using a web browser or a mobile app. Consumers
+                            find a product of interest by visiting the website of the retailer directly or by searching
+                            among alternative vendors using a shopping search engine.</p>
+                        <a href="./E-Commerce.html" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img class="music" src="image6.jpeg">
+                    <div class="layer">
+                        <h3 class="color">Music App</h3>
+                        <p>Our innovative music app, designed to revolutionize how users experience and interact with
+                            music. With a seamless blend of cutting-edge technology and user-centric design, our app
+                            offers a personalized music listening experience like no other.</p>
+                        <a href="./Music.html" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------contact--------------->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <div class="contact-center">
+                        <p> <i class="fa-solid fa-paper-plane"></i>rahulravuula@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>+91 891 950 0434</p>
+                        <div class="social-icon">
+                            <a href="https://www.linkedin.com/in/rahulravula16/" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://x.com/ravularahul11?t=KOFadA6iHRE8l6PMy7beuw&s=09" target="_blank"><i
+                                    class="fa-brands fa-square-x-twitter"></i></a>
+                            <a href="homie7._" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href="https://github.com/Rahulravula23" target="_blank"><i
+                                    class="fa-brands fa-square-github"></i></a>
+                        </div>
+                    </div>
+                    <a href="https://docs.google.com/document/d/1N8aSQ5ebniGBcXWFNiHiaougjCKJGEkJ/edit?usp=drive_link&ouid=116005967715622400530&rtpof=true&sd=true"
+                        target="_blank" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Mail" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="sybmit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------SKILL SCRIPT-------------------------------->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <!-------------------------------END SCRIPT---------------------------------->
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxFH-JiE67vA5Cuo5GVSvSkSerj95o99R_FAoT8ll5-TqjsMgHJQLaJ9n0RZ20NkNZ8GA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Sucessfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 2000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <br>
+    <br>
+    <br>
+
+</body>
+
+</html>

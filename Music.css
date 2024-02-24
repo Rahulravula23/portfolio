@@ -1,0 +1,86 @@
+/* CSS Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background: linear-gradient(to right, #ff004f, #ff5757);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+button {
+    background: linear-gradient(to right, #333, #444);
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+}
+
+.sidebar {
+    flex: 1;
+    background: linear-gradient(to bottom, #333, #444);
+    padding: 20px;
+    color: #fff;
+}
+
+.sidebar h2 {
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.content {
+    flex: 3;
+    padding: 20px;
+}
+
+.song {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.song img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background: linear-gradient(to right, #ff004f, #ff5757);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.music {
+    max-width: 200px;
+    max-height: 150px;
+}
